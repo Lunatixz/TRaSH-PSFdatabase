@@ -86,29 +86,29 @@ custom_formats:
 - name: Roku
   score: 40
 - name: Dolby Vision
-  score: 30
+  score: -1000
 - name: SD Golden Popcorn
   score: 30
 - name: SD Quality Tier 1
   score: 30
 - name: HDR10+
-  score: 20
+  score: 1000
 - name: Scene
   score: 20
 - name: SD Quality Tier 2
   score: 20
 - name: Atmos
-  score: 10
+  score: 1000
 - name: Atmos (Missing)
-  score: 10
+  score: 999
 - name: Blu-ray
   score: 10
 - name: HDR
   score: 10
 - name: HDR10
-  score: 10
+  score: 1000
 - name: HDR10 (Missing) (1080p)
-  score: 10
+  score: 999
 - name: Special Edition
   score: 10
 - name: WEBRip
@@ -146,7 +146,7 @@ custom_formats:
 - name: Blu-ray Remux
   score: -9999
 - name: Dolby Vision (Without Fallback)
-  score: -9999
+  score: -1000
 - name: Extras
   score: -9999
 - name: Full Disc

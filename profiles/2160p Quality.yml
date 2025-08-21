@@ -96,7 +96,7 @@ custom_formats:
 - name: Disney+ [1080p]
   score: 30
 - name: Dolby Vision
-  score: 30
+  score: -1000
 - name: Movies Anywhere [1080p]
   score: 30
 - name: SD Quality Tier 1
@@ -108,7 +108,7 @@ custom_formats:
 - name: HBO Max [1080p]
   score: 20
 - name: HDR10+
-  score: 20
+  score: 1000
 - name: Max [1080p]
   score: 20
 - name: Netflix [1080p]
@@ -116,17 +116,17 @@ custom_formats:
 - name: SD Quality Tier 2
   score: 20
 - name: DTS-X
-  score: 15
+  score: -1000
 - name: 1080p Balanced Tier 2
   score: 10
 - name: Blu-ray
   score: 10
 - name: HDR
-  score: 10
+  score: 900
 - name: HDR10
-  score: 10
+  score: 1000
 - name: HDR10 (Missing)
-  score: 10
+  score: 999
 - name: Hulu [1080p]
   score: 10
 - name: iTunes [1080p]
@@ -138,9 +138,9 @@ custom_formats:
 - name: Roku [1080p]
   score: 10
 - name: TrueHD
-  score: 10
+  score: 900
 - name: TrueHD (Missing)
-  score: 10
+  score: 899
 - name: WEBRip
   score: 10
 - name: x264
@@ -152,11 +152,11 @@ custom_formats:
 - name: Repack1
   score: 6
 - name: Atmos
-  score: 5
+  score: 1000
 - name: Atmos (Missing)
-  score: 5
+  score: 999
 - name: DTS-HD MA
-  score: 5
+  score: -1000
 - name: FLAC
   score: 5
 - name: Unknown Lossless Audio
@@ -188,7 +188,7 @@ custom_formats:
 - name: Blu-ray Remux
   score: -9999
 - name: Dolby Vision (Without Fallback)
-  score: -9999
+  score: -1000
 - name: Extras
   score: -9999
 - name: Full Disc
@@ -198,7 +198,7 @@ custom_formats:
 - name: h265 (Missing)
   score: -9999
 - name: HDR10 (Missing) (1080p)
-  score: -9999
+  score: 999
 - name: Lossless Audio (1080p)
   score: -9999
 - name: Non Retail HDR

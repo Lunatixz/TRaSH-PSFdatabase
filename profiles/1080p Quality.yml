@@ -83,9 +83,9 @@ custom_formats:
 - name: 1080p Balanced Tier 2
   score: 10
 - name: Atmos
-  score: 10
+  score: 1000
 - name: Atmos (Missing)
-  score: 10
+  score: 999
 - name: Blu-ray
   score: 10
 - name: Special Edition
@@ -121,7 +121,7 @@ custom_formats:
 - name: Blu-ray Remux
   score: -9999
 - name: Dolby Vision
-  score: -9999
+  score: -1000
 - name: Extras
   score: -9999
 - name: Full Disc
@@ -131,15 +131,15 @@ custom_formats:
 - name: h265 (Missing)
   score: -9999
 - name: HDR
-  score: -9999
+  score: 900
 - name: HDR10
-  score: -9999
+  score: 1000
 - name: HDR10 (Missing)
-  score: -9999
+  score: 999
 - name: HDR10 (Missing) (1080p)
-  score: -9999
+  score: 999
 - name: HDR10+
-  score: -9999
+  score: 1000
 - name: Remux
   score: -9999
 - name: SD Bluray Encodes

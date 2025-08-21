@@ -37,15 +37,15 @@ custom_formats:
 - name: Blu-ray Remux
   score: 60
 - name: DTS-X
-  score: 60
+  score: -1000
 - name: Remux
   score: 60
 - name: DTS-HD MA
-  score: 50
+  score: -1000
 - name: TrueHD
-  score: 50
+  score: 900
 - name: TrueHD (Missing)
-  score: 50
+  score: 899
 - name: DVD Remux
   score: 40
 - name: Amazon Prime
@@ -71,9 +71,9 @@ custom_formats:
 - name: Peacock
   score: 20
 - name: Atmos
-  score: 10
+  score: 1000
 - name: Atmos (Missing)
-  score: 10
+  score: 999
 - name: Hulu
   score: 10
 - name: iTunes
@@ -115,7 +115,7 @@ custom_formats:
 - name: Dolby Vision
   score: -9999
 - name: Dolby Vision (Without Fallback)
-  score: -9999
+  score: -1000
 - name: Extras
   score: -9999
 - name: Full Disc
@@ -125,13 +125,13 @@ custom_formats:
 - name: h265 (Missing)
   score: -9999
 - name: HDR
-  score: -9999
+  score: 900
 - name: HDR10
-  score: -9999
+  score: 1000
 - name: HDR10 (Missing)
-  score: -9999
+  score: 999
 - name: HDR10+
-  score: -9999
+  score: 1000
 - name: Non Retail HDR
   score: -9999
 - name: UHDBits
